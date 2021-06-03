@@ -48,12 +48,12 @@ class AlertController: UIViewController {
   
   // TitleLabel
   var titleLabel = UILabel()
-  var titleFont = UIFont.boldSystemFont(ofSize: 18 * ScaleFactor.default)
+  var titleFont = UIFont.boldSystemFont(ofSize: 18)
   var titleTextColor = UIColor(red: 77/255, green: 77/255, blue: 77/255, alpha: 1.0)
   
   // MessageView
   var messageView = UILabel()
-  var messageFont = UIFont.systemFont(ofSize: 15 * ScaleFactor.default)
+  var messageFont = UIFont.systemFont(ofSize: 15)
   var messageTextColor = UIColor(red: 77/255, green: 77/255, blue: 77/255, alpha: 1.0)
   
   // TextFieldContainerView
@@ -86,9 +86,9 @@ class AlertController: UIViewController {
   // Buttons
   var buttons = [UIButton]()
   var buttonFont: [AlertActionStyle : UIFont] = [
-    .default: UIFont.boldSystemFont(ofSize: 16 * ScaleFactor.default),
-    .cancel: UIFont.boldSystemFont(ofSize: 16 * ScaleFactor.default),
-    .destructive: UIFont.boldSystemFont(ofSize: 16 * ScaleFactor.default)
+    .default: UIFont.boldSystemFont(ofSize: 16),
+    .cancel: UIFont.boldSystemFont(ofSize: 16),
+    .destructive: UIFont.boldSystemFont(ofSize: 16)
   ]
   var buttonTextColor: [AlertActionStyle : UIColor] = [
     .default: UIColor.white,
