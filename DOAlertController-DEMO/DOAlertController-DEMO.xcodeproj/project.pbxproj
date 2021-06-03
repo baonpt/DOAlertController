@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D64F5A266962FE00A68B2D /* AlertStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D64F56266962FE00A68B2D /* AlertStyle.swift */; };
+		22D64F5B266962FE00A68B2D /* AlertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D64F57266962FE00A68B2D /* AlertAnimation.swift */; };
+		22D64F5C266962FE00A68B2D /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D64F58266962FE00A68B2D /* AlertAction.swift */; };
+		22D64F5D266962FE00A68B2D /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D64F59266962FE00A68B2D /* AlertController.swift */; };
 		4F47CAB11AE26BD100BF71E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CAB01AE26BD100BF71E4 /* AppDelegate.swift */; };
 		4F47CAB31AE26BD100BF71E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CAB21AE26BD100BF71E4 /* ViewController.swift */; };
 		4F47CAB61AE26BD100BF71E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F47CAB41AE26BD100BF71E4 /* Main.storyboard */; };
 		4F47CAB81AE26BD100BF71E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F47CAB71AE26BD100BF71E4 /* Images.xcassets */; };
 		4F47CABB1AE26BD100BF71E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F47CAB91AE26BD100BF71E4 /* LaunchScreen.xib */; };
 		4F47CAC71AE26BD100BF71E4 /* DOAlertController_DEMOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CAC61AE26BD100BF71E4 /* DOAlertController_DEMOTests.swift */; };
-		4F47CAD11AE26C9300BF71E4 /* DOAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CAD01AE26C9300BF71E4 /* DOAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22D64F56266962FE00A68B2D /* AlertStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertStyle.swift; sourceTree = "<group>"; };
+		22D64F57266962FE00A68B2D /* AlertAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAnimation.swift; sourceTree = "<group>"; };
+		22D64F58266962FE00A68B2D /* AlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		22D64F59266962FE00A68B2D /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		4F47CAAB1AE26BD100BF71E4 /* DOAlertController-DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DOAlertController-DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F47CAAF1AE26BD100BF71E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F47CAB01AE26BD100BF71E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +44,6 @@
 		4F47CAC01AE26BD100BF71E4 /* DOAlertController-DEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DOAlertController-DEMOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F47CAC51AE26BD100BF71E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F47CAC61AE26BD100BF71E4 /* DOAlertController_DEMOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOAlertController_DEMOTests.swift; sourceTree = "<group>"; };
-		4F47CAD01AE26C9300BF71E4 /* DOAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D64F55266962FE00A68B2D /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				22D64F56266962FE00A68B2D /* AlertStyle.swift */,
+				22D64F57266962FE00A68B2D /* AlertAnimation.swift */,
+				22D64F58266962FE00A68B2D /* AlertAction.swift */,
+				22D64F59266962FE00A68B2D /* AlertController.swift */,
+			);
+			name = Alert;
+			path = ../DOAlertController/Alert;
+			sourceTree = "<group>";
+		};
 		4F47CAA21AE26BD100BF71E4 = {
 			isa = PBXGroup;
 			children = (
+				22D64F55266962FE00A68B2D /* Alert */,
 				4F47CAAD1AE26BD100BF71E4 /* DOAlertController-DEMO */,
 				4F47CAC31AE26BD100BF71E4 /* DOAlertController-DEMOTests */,
 				4F47CAAC1AE26BD100BF71E4 /* Products */,
@@ -84,7 +103,6 @@
 				4F47CAB41AE26BD100BF71E4 /* Main.storyboard */,
 				4F47CAB71AE26BD100BF71E4 /* Images.xcassets */,
 				4F47CAB91AE26BD100BF71E4 /* LaunchScreen.xib */,
-				4F47CAD21AE26C9F00BF71E4 /* DOAlertController */,
 				4F47CAAE1AE26BD100BF71E4 /* Supporting Files */,
 			);
 			path = "DOAlertController-DEMO";
@@ -113,14 +131,6 @@
 				4F47CAC51AE26BD100BF71E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4F47CAD21AE26C9F00BF71E4 /* DOAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				4F47CAD01AE26C9300BF71E4 /* DOAlertController.swift */,
-			);
-			name = DOAlertController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +197,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -226,9 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D64F5C266962FE00A68B2D /* AlertAction.swift in Sources */,
 				4F47CAB31AE26BD100BF71E4 /* ViewController.swift in Sources */,
-				4F47CAD11AE26C9300BF71E4 /* DOAlertController.swift in Sources */,
 				4F47CAB11AE26BD100BF71E4 /* AppDelegate.swift in Sources */,
+				22D64F5A266962FE00A68B2D /* AlertStyle.swift in Sources */,
+				22D64F5D266962FE00A68B2D /* AlertController.swift in Sources */,
+				22D64F5B266962FE00A68B2D /* AlertAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +381,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.devlog.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -382,7 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.devlog.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -403,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.devlog.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOAlertController-DEMO.app/DOAlertController-DEMO";
 			};
 			name = Debug;
@@ -419,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.devlog.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOAlertController-DEMO.app/DOAlertController-DEMO";
 			};
 			name = Release;
